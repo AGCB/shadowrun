@@ -24,6 +24,12 @@
         -   ```theme.spacing(2) // = 5```
         - i bet i could pass funcs as values in that array if it really got scary 
   - grid
+    - based on flexbox
+    - 2 types of layout... `containers` and `items`
+    - item widths in %
+    - items get padding.
+    - 5 breakpoints xs,sm,md,lg,xl
+    
   - textfield
   - box
   -tooltip
