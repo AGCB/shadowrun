@@ -1,6 +1,6 @@
 import styles from "./User.module.scss";
 import Clock from "react-live-clock";
-
+import BackButton from "../../components/BackButton/";
 const User = () => {
   return (
     <div className={styles.userWrapper}>
@@ -9,6 +9,7 @@ const User = () => {
         ticking={true}
         timezone={"US/Pacific"}
       />
+      <BackButton />
       <span>LOGIN BUTTON</span>
       <span>LOGOUT BUTTON</span>
       <span>LOGOUT BUTTON</span>
