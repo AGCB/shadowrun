@@ -1,8 +1,14 @@
 import styles from "./User.module.scss";
+import Clock from "react-live-clock";
 
 const User = () => {
   return (
     <div className={styles.userWrapper}>
+      <Clock
+        format={"dddd, MMMM Do YYYY, h:mm:ss a"}
+        ticking={true}
+        timezone={"US/Pacific"}
+      />
       <span>LOGIN BUTTON</span>
       <span>LOGOUT BUTTON</span>
       <span>LOGOUT BUTTON</span>
