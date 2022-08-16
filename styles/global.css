@@ -5,9 +5,3 @@
 body {
   @apply text-white bg-gray-800;
 }
-
-.softwareDataWrapper {
-  display: flex;
-  flex-direction: column;
-  border: 10px solid blue;
-}
