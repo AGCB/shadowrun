@@ -4,7 +4,7 @@ what app are we running?
 what version?
 
 This component gives basic info on the App they are running.
-User can be linked to the /about page for more details.
+TODO: User can be linked to the /about page for more details.
 
 */
 

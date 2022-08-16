@@ -1,24 +1,10 @@
 // import Image from "next/image";
 // import avatar from "./../../public/vercel.svg";
+import UserName from "../UserName/";
 import LogInStatus from "../LoginStatus/";
+import UserAvatar from "../UserAvatar/";
 import styles from "./CurrentUserSession.module.scss";
 import Link from "next/link";
-
-const UserAvatar = () => {
-  return (
-    <Link href="/user">
-      <span className={styles.avatar}>AVATAR</span>
-    </Link>
-  );
-};
-
-type UserNameProps = {
-  userName: string;
-};
-
-const UserName = ({ userName }: UserNameProps) => {
-  return <div>{userName}</div>;
-};
 
 const CurrentUserSession = () => {
   return (
