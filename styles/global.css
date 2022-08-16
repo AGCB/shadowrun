@@ -4,4 +4,6 @@
 
 body {
   @apply text-white bg-gray-800;
+  font-family: Aborato san-sans-serif;
+  color: rgb(54, 78, 107);
 }
