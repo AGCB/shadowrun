@@ -4,7 +4,7 @@ import CurrentUserSession from "../components/CurrentUserSession/";
 
 const Home: NextPage = () => {
   return (
-    <div className="text-2xl text-cyan-200">
+    <div className="text-2xl text-sky-400">
       <SoftwareData name="shadowrun" version="v0.0.0" />
       <CurrentUserSession />
     </div>
