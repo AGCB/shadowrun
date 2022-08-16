@@ -1,5 +1,6 @@
 // import Image from "next/image";
 // import avatar from "./../../public/vercel.svg";
+import LogInStatus from "../LoginStatus/";
 import styles from "./CurrentUserSession.module.scss";
 import Link from "next/link";
 
@@ -15,16 +16,8 @@ type UserNameProps = {
   userName: string;
 };
 
-type LogInStatusProps = {
-  status: string;
-};
-
 const UserName = ({ userName }: UserNameProps) => {
   return <div>{userName}</div>;
-};
-
-const LogInStatus = ({ status }: LogInStatusProps) => {
-  return <div>{status}</div>;
 };
 
 const CurrentUserSession = () => {
